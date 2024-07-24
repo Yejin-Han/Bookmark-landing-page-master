@@ -525,9 +525,6 @@ section {
     .contact-form .input-wrap {
         flex: 1;
     }
-    .error-msg {
-        
-    }
     .btn-contact {
         flex-shrink: 0;
         width: auto;
