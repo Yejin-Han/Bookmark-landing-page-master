@@ -110,10 +110,10 @@ section {
     background-color: var(--soft-red);
     transition: width 0.2s;
 }
-.tab-item[aria-selected='true'] .tab-link {
+.tab-link[aria-selected='true'] {
     color: var(--very-dark-blue);
 }
-.tab-item[aria-selected='true'] .tab-link:after {
+.tab-link[aria-selected='true']:after {
     width: 100%;
 }
 .tab-panel[hidden] {
