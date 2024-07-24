@@ -14,7 +14,7 @@ headerToggle.addEventListener('click', (e) => {
 
 
 // tab
-const tabItems = document.querySelectorAll('.tab-link');
+const tabItems = document.querySelectorAll('.tab-item');
 const tabPanels = document.querySelectorAll('.tab-panel');
 
 tabItems.forEach(item => {
