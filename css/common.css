@@ -57,11 +57,12 @@ body {
     display: block !important;
 }
 .logo {
+    display: inline-block;
     width: 8em;
     height: 1.6em;
 }
 .logo-link {
-    display: inline-block;
+    display: flex;
     width: 100%; height: 100%;
 }
 .logo-svg {
@@ -281,10 +282,6 @@ body {
 @media screen and (min-width: 768px) {
     .logo {
         height: 100%;
-    }
-    .logo-link {
-        display: flex;
-        align-self: center;
     }
     .nav-item {
         display: inline-block;
